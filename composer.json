@@ -1,0 +1,11 @@
+{
+    "name": "misterlexa/smsc",
+    "description": "PHP library for yii2. Make thigs easier if you use smsc.ru service for sending sms.",
+    "authors": [
+        {
+            "name": "Alexey Kosenko",
+            "email": "misterlexa123@gmail.com"
+        }
+    ],
+    "require": {}
+}
