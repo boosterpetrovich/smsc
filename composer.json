@@ -1,13 +1,16 @@
 {
     "name": "misterlexa/smsc",
     "description": "PHP library for yii2. Make thigs easier if you use smsc.ru service for sending sms.",
-    "require": {
-        "php": ">=5.4.0"
-    },
+    "keywords": ["sms yii2", "smsc yii2", "send sms yii2"],
+    "homepage": "http://boosterpetrovich.com.com/",
     "authors": [
         {
             "name": "Alexey Kosenko",
             "email": "misterlexa123@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    }
 }
