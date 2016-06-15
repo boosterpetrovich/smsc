@@ -10,6 +10,7 @@ class Sender {
     public $charset;
     public $debug;
     public $from;
+    public $fmt;
 
     public function sendSms($phones, $message, $translit = 0, $time = 0, $id = 0, $format = 0, $sender = false, $query = "", $files = array())
     {
@@ -98,7 +99,7 @@ class Sender {
 
     protected function sendCmd($cmd, $arg = "", $files = array())
     {
-    	$url = ($this->is_https ? "https" : "http")."://smsc.ru/sys/$cmd.php?login=".urlencode($this->login)."&psw=".urlencode($this->pass)."&fmt=1&charset=".$this->charset."&".$arg;
+    	$url = ($this->is_https ? "https" : "http")."://smsc.ru/sys/$cmd.php?login=".urlencode($this->login)."&psw=".urlencode($this->pass)."&".$this->fmt."&charset=".$this->charset."&".$arg;
 
     	$i = 0;
     	do {
