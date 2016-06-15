@@ -1,5 +1,5 @@
 <?php
-namespace misterlexa\smsc;
+namespace smsc;
 
 class Sender {
 
