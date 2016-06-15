@@ -5,7 +5,7 @@ PHP library for yii2. Make things easier if you use smsc.ru service for sending 
 Installation
 -----
 ```
-composer require misterlexa/smsc
+composer require misterlexa/smsc "*@dev"
 ```
 Modify YII2 config file like this:
 ```
@@ -24,7 +24,7 @@ Modify YII2 config file like this:
       ...
   ],
   'aliases' => [
-        '@smsc' => '@vendor/smsc',
+        '@smsc' => '@vendor/misterlexa/smsc',
   ],
 
 ```
