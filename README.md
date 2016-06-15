@@ -20,6 +20,7 @@ Modify YII2 config file like this:
             'charset' => 'utf8',
             'debug' => 1,
             'from' => 'api@smsc.ru',
+            'fmt' => '3',
         ],
       ...
   ],
