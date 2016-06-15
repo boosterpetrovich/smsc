@@ -3,6 +3,7 @@
     "description": "PHP library for yii2. Make thigs easier if you use smsc.ru service for sending sms.",
     "keywords": ["sms yii2", "smsc yii2", "send sms yii2"],
     "homepage": "http://boosterpetrovich.com.com/",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Alexey Kosenko",
